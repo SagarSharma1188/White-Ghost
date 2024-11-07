@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu</title>
+    <style>
+        *{
+        margin: 0px;
+        padding: 0px;
+        font-family: sans-serif;
+    }
+    body{
+        background-color: antiquewhite;
+    }
+    .nav{
+        background-color: antiquewhite;
+        height: 9vh;
+    }
+    .list{
+        display: flex;
+        justify-content: space-around;
+        list-style: none;
+        text-align: center;
+        padding: 20px 300px;
+    }
+    ul a{
+        text-decoration: none;
+        color: green;
+        text-align: center;
+        font-size: larger;
+        font-weight: bolder;
+    }
+    .container img{
+        filter: brightness(75%);
+        background-size: cover;
+        z-index: 1;
+        height: 500px;
+            width: 99vw;
+            object-fit: cover;
+    }
+    .name{
+        color: white;
+        font-size: 100px;
+        position: absolute;
+        top: 30%;
+        left: 32%;
+        font-family: sans-serif;
+        font-weight: 700;
+    }
+    .container{
+        position: relative;
+    }
+    a:hover{
+        color: rgb(224, 60, 60);
+    }
+    .main{
+        font-size: xx-large;
+        color: green;
+        font-weight: 500;
+    }
+    .sub{
+        font-size: large;
+    }
+    .text{
+        text-align: center;
+        font-size: x-large;
+        font-style: italic;
+        
+    }
+    .text{
+        margin-top: 50px;
+        margin-bottom: 50px;
+        color: green;
+    }
+    input{
+        height: 50px;
+        color: green;
+    }
+    #john{
+        width: 400px;
+    }
+    #email{
+        width: 400px;
+    }
+    #phone{
+        width: 400px;
+    }
+    #query{
+        width: 400px;
+    }
+    #message{
+        width: 400px;
+        height: 200px;
+    }
+    .contact{
+        margin-left: 500px;
+        margin-bottom: 40px;
+    }
+    .wwe{
+        margin: 10px;
+    }
+    .submit{
+        background-color: green;
+        color: white;
+        margin-left: 160px;
+        border-style: none;
+        width: 100px;
+        border-radius: 50px;
+    }
+    .submit:hover{
+        cursor: pointer;
+    }
+    </style>
+</head>
+<body>
+    <div class="nav">
+        <ul class="list">
+            <li id="name"><a href="index.html" style="color: rgb(67, 170, 67);">White Ghost</a></li>
+            <li><a href="menu.html">Menus</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="cart.html">Cart</a></li>
+        </ul>
+    </div>
+    <div class="container">
+        <img src="https://wallpaperaccess.com/full/767054.jpg" alt="">
+        <div class="name">Contact Us</div>
+    </div>
+    <div class="text">Send us a message and we’ll get back to you as soon as possible. <br>
+        Looking forward to hearing from you.</div>
+    <div class="contact">
+            <form action="">
+                <div><label for="john">Name - <i>required</i></label> <br>
+                    <input type="text" class="wwe" id="john" name="name" placeholder="Name" required></div> 
+                <div><label for="email">Email - <i>Required</i></label><br>
+                    <input type="text" class="wwe" id="email" name="email" placeholder="Email" required></div>
+                <div><label for="phone">Phone No. - <i>Required</i></label><br>
+                    <input type="text" class="wwe" id="phone" name="phone" placeholder="Phone No." required></div>
+                <div><label for="query">What are you getting in touch about? - <i>Optional</i></label><br>
+                    <input type="text" class="wwe" id="email" name="email" placeholder="What are you getting in touch about?"></div>
+                <div><label for="message">Your Message - <i>Required</i></label><br>
+                    <textarea name="message" class="wwe" id="message" placeholder="Your Message" required></textarea></div>
+                    <div><input class="submit" type="submit"></div>
+            </form>
+    </div>
+
+
+
+</body>
+</html>

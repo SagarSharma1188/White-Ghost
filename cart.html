@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu</title>
+    <style>
+        *{
+        margin: 0px;
+        padding: 0px;
+        font-family: sans-serif;
+    }
+    body{
+        background-color: antiquewhite;
+    }
+    .nav{
+        background-color: antiquewhite;
+        height: 9vh;
+    }
+    #name{
+        color: rgb(118, 169, 118);
+        font-weight: bolder;
+        font-size: 35px;
+    }
+    .list{
+        display: flex;
+        justify-content: space-around;
+        list-style: none;
+        text-align: center;
+        padding: 20px 300px;
+    }
+    ul a{
+        text-decoration: none;
+        color: green;
+        text-align: center;
+        font-size: larger;
+        font-weight: bolder;
+    }
+    .container img{
+        filter: brightness(75%);
+        background-size: cover;
+        z-index: 1;
+        height: 500px;
+            width: 99vw;
+            object-fit: cover;
+    }
+    .name{
+        color: white;
+        font-size: 100px;
+        position: absolute;
+        top: 40%;
+        left: 40%;
+        font-family: sans-serif;
+        font-weight: 700;
+    }
+    .container{
+        position: relative;
+    }
+    a:hover{
+        color: rgb(224, 60, 60);
+    }
+    .text{
+        font-size: x-large;
+    }
+    button{
+        border-style: none;
+        background-color: green;
+        width: 400px;
+        height: 40px;
+        font-size: larger;
+        color: white;
+    }
+    .grid{
+        display: grid;
+        grid-template-columns: 560px 420px;
+        grid-template-rows: auto auto auto;
+        gap: 20px;
+        margin-left: 250px;
+        margin-top: 50px;
+    }
+    .photo{
+        width: 400px;
+    }
+    button:hover{
+        cursor: pointer;
+    }
+    </style>
+</head>
+<body>
+    <div class="nav">
+        <ul class="list">
+            <li id="name"><a href="index.html" style="color: rgb(67, 170, 67);">White Ghost</a></li>
+            <li><a href="menu.html">Menus</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="home.html".html">Home</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="cart.html">Cart</a></li>
+        </ul>
+    </div>
+    <div class="container">
+        <img src="https://wallpaperaccess.com/full/767033.jpg" alt="">
+        <div class="name">Cart</div>
+    </div>
+    <div class="grid">
+        <div class="items">
+            <img class="photo" src="https://th.bing.com/th/id/OIP.NoebjbtZLAdiTxwXE3JDHAHaE8?rs=1&pid=ImgDetMain" alt="">
+            <div class="text">Pao-de-Queijo</div>
+            <div class="text1">Rs.500</div>
+            <a href=""><button  class="ref">Ordered</button></a> 
+        </div>
+        <div class="items">
+            <img class="photo" src="https://imgs.search.brave.com/lhL3BV_qcztbeT2s36rd7KlmXYafC_GJLNW_TMHAzHA/rs:fit:500:0:0:0/g:ce/aHR0cDovL3BhdGlq/aW5pY2guY29tL2Vz/L3dwLWNvbnRlbnQv/dXBsb2Fkcy9zaXRl/cy8zLzIwMTMvMTEv/c2Fsc2EtbWFjaGEu/anBn" alt="">
+            <div class="text">Boquerones & salsa macha</div>
+            <div class="text1">Rs.1200</div>
+            <a href=""><button class="ref">Ordered</button></a> 
+        </div>
+        <div class="items">
+            <img class="photo" src="https://imgs.search.brave.com/ZdwJUwEJ33qOcPZrspV81W0koDWbpPAK4g1MOUdaAxA/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pbWct/Z2xvYmFsLmNwY2Ru/LmNvbS9yZWNpcGVz/LzA0NWM3NzU3NGVl/MmY4MTEvNjgweDQ4/MmNxNzAvYWd1YWNo/aWxlLW5lZ3JvLWRl/LWNhbWFyb24tZm90/by1wcmluY2lwYWwu/anBn" alt="">
+            <div class="text">Aguachile negro</div>
+            <div class="text1">Rs.900</div>
+            <a href=""><button class="ref">Ordered</button></a> 
+        </div>
+        <div class="items">
+            <img class="photo" src="https://imgs.search.brave.com/HDbe66_huEOr6Tw03l7ac0wbPPPGuLbFEZurIioKBiM/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pLnJl/ZGQuaXQvdmpmOWNx/ZzRzanlhMS5qcGc" alt="">
+            <div class="text">crispy pork belly in salsa verde</div>
+            <div class="text1">Rs.700</div>
+            <a href=""><button class="ref">Ordered</button></a> 
+        </div>
+        <div class="items">
+            <img class="photo" src="https://imgs.search.brave.com/Mvyj41U29XHJuCWAb9CGUM9gh1XkGvs8xu0X6IhJaFI/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9lbGF2/ZWdhbi5jb20vd3At/Y29udGVudC91cGxv/YWRzLzIwMjAvMDcv/bGFuZHNjYXBlLXBo/b3RvLW9mLW1hc2gt/d2l0aC12ZWdnaWUt/c2F1c2FnZXMuanBn" alt="">
+            <div class="text">sausage & veggie parrillada</div>
+            <div class="text1">Rs.900</div>
+            <a href=""><button class="ref">Ordered</button></a> 
+        </div>
+        <div class="items">
+            <img class="photo" src="https://imgs.search.brave.com/H_aw_uLsgnRT03amqzgibuYwtrpvwsN5atoHk1gzYcM/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5nZXR0eWltYWdl/cy5jb20vaWQvNTEz/Mzk0ODgxL3Bob3Rv/L3NocmltcC10YWNv/cy5qcGc_cz02MTJ4/NjEyJnc9MCZrPTIw/JmM9b2lTaWZERlFK/UTc3bmxab0podHNs/MkdwS3VQUTN6UUdl/NEMyVHZHTzRhdz0" alt="">
+            <div class="text">shrimp tacos</div>
+            <div class="text1">Rs.1000</div>
+            <a href=""><button class="ref">Ordered</button></a> 
+        </div>
+        <div class="items">
+            <img class="photo" src="https://imgs.search.brave.com/LSUlIIgyDovhksqLpq7-NVka2OiBd2D26NZB1AVHM4g/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93d3cu/aW5zcGlyZWR0YXN0/ZS5uZXQvd3AtY29u/dGVudC91cGxvYWRz/LzIwMTYvMTAvVmVn/Z2llLVRhY29zLVJl/Y2lwZS02LmpwZw" alt="">
+            <div class="text">veggie tacos</div>
+            <div class="text1">Rs.1200</div>
+            <a href=""><button class="ref">Ordered</button></a> 
+        </div>
+        <div class="items">
+            <img class="photo" src="https://imgs.search.brave.com/8DKmikBpRjiTirnCHwRn0ugHWDLZFbQfAZGxVAqlrI8/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pMC53/cC5jb20vdmVyeXZl/Z2FudmFsLmNvbS93/cC1jb250ZW50L3Vw/bG9hZHMvMjAxNy8w/Ni9JTUdfNzUzNS5q/cGc_dz0xMjAwJnNz/bD0x" alt="">
+            <div class="text">wild mushroom tacos</div>
+            <div class="text1">Rs.1200</div>
+            <a href=""><button class="ref">Ordered</button></a> 
+        </div>
+        <div class="items">
+            <img class="photo" src="https://imgs.search.brave.com/KM7tzG4EdSGE4NZ9shTHp0AyoOexSDqrb_VDIeOfLNY/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9zYWxp/bWFza2l0Y2hlbi5j/b20vd3AtY29udGVu/dC91cGxvYWRzLzIw/MjMvMDIvVHVuYS1U/b3N0YWRhcy1Oby1N/YXlvLVNhbGltYXMt/S2l0Y2hlbi00NS5q/cGc" alt="">
+            <div class="text">tuna tostadas</div>
+            <div class="text1">Rs.1500</div>
+            <a href=""><button class="ref">Ordered</button></a> 
+        </div>
+        <div class="items">
+            <img class="photo" src="https://media-cdn.tripadvisor.com/media/photo-s/15/33/8c/77/3600-boneless-pao-de.jpg" alt="">
+            <div class="text">pao de queijo burger</div>
+            <div class="text1">Rs.1400</div>
+            <a href=""><button class="ref">Ordered</button></a> 
+        </div>
+        <div class="items">
+            <img class="photo" src="https://cdn2.momjunction.com/wp-content/uploads/2015/08/Eggplant-Lasagna.jpg.webp" alt="">
+            <div class="text">baked baby eggplant & mole</div>
+            <div class="text1">Rs.1100</div>
+            <a href=""><button class="ref">Ordered</button></a> 
+        </div>
+        <div class="items">
+            <img class="photo" src="https://images.squarespace-cdn.com/content/v1/56801b350e4c11744888ec37/1587099928276-O0HE541IDMPBQEY71SM0/Tabbouleh+1.jpg?format=1500w" alt="">
+            <div class="text">frijol tabbouleh</div>
+            <div class="text1">Rs.900</div>
+            <a href=""><button class="ref">Ordered</button></a> 
+        </div>
+    </div>
+    <script>
+        const orderButtons = document.querySelectorAll(".ref");
+    
+        orderButtons.forEach(button => {
+            button.addEventListener('click', (e) => {
+                e.preventDefault()
+                button.innerText = "Ordered"; 
+                alert("Order has been placed");
+            });
+        });
+    </script>
+    
+</body>
+</html>

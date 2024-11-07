@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>White Ghost</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+        body{
+            background-color: antiquewhite;
+        }
+        .nav{
+            background-color: antiquewhite;
+            height: 9vh;
+        }
+        #name{
+            color: grey;
+            font-weight: bolder;
+            font-size: 35px;
+        }
+        .list{
+            display: flex;
+            justify-content: space-around;
+            list-style: none;
+            text-align: center;
+            padding: 20px 300px;
+        }
+        ul a{
+            text-decoration: none;
+            color: green;
+            text-align: center;
+            font-size: larger;
+            font-weight: bolder;
+        }
+        .container img{
+            filter: brightness(75%);
+            background-size: cover;
+            z-index: 1;
+            height: 700px;
+            width: 100vw;
+            object-fit: cover;
+        }
+        .name{
+            color: white;
+            font-size: 100px;
+            position: absolute;
+            top: 30%;
+            left: 40%;
+            font-family: sans-serif;
+            font-weight: 700;
+        }
+        .container{
+            position: relative;
+        }
+        a:hover{
+            color: rgb(224, 60, 60);
+        }
+        .text{
+            text-align: center;
+            color: rgb(2, 68, 2);
+            font-size: 30px;
+            margin: 40px;
+        }
+        .grid{
+            display: grid;
+            grid-template-columns: auto auto;
+            grid-template-rows: auto auto;
+        }
+        .menus{
+            background-image: url(http://ts3.mm.bing.net/th?id=OIP.OLOGZ9ZypNVFsQ1Hzmg-iQHaFp&pid=15.1);
+            width: 40vw;
+            height: 50vh;
+            background-size: cover;
+            background-position: center;
+        }
+        .menu{
+            color: white;
+            font-size: 100px;
+            text-align: center;
+            margin-top: 140px;
+            text-decoration: underline;
+        }
+     .menu_text{
+            text-align: center;
+            color: rgb(2, 68, 2);
+            font-size: 30px;
+            margin-top: 130px;
+     }
+     .blocks a{
+            color: White;
+            text-align: center;
+            font-size: larger;
+            font-weight: bolder;
+     }
+     .blocks button{
+        border: none;
+        color: white;
+        background-color: rgb(2, 68, 2);
+        height: 50px;
+        width: 250px;
+        text-decoration: none;
+     }
+     .sunday{
+        background-image: url(http://ts3.mm.bing.net/th?id=OIP.OLOGZ9ZypNVFsQ1Hzmg-iQHaFp&pid=15.1);
+        width: 59vw;
+        height: 75vh;
+        }
+        .asados{
+            color: white;
+            font-size: 100px;
+            text-align: center;
+            margin-top: 140px;
+            text-decoration: underline;
+        }
+        .sunday_text{
+            text-align: center;
+            color: rgb(2, 68, 2);
+            font-size: 30px;
+            margin-top: 130px;
+        }
+        .order{
+            width: 300px;
+            height: 100px;
+            background-color: green;
+            color: white;
+            border-style: none;
+            margin-top: 200px;
+            margin-left: 600px;
+            font-size: larger;
+            margin-bottom: 100px;
+        }
+        button:hover{
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="nav">
+        <ul class="list">
+            <li id="name"><a href="index.html" style="color: grey;">White Ghost</a></li>
+            <li><a href="menu.html">Menus</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="cart.html">Cart</a></li>
+        </ul>
+    </div>
+    <div class="container">
+        <img src="https://cdn.prod.website-files.com/5f64ed8f58fceb18f90d0ebd/5f64ed8f58fceb78610d0f0e_171220_ColoniaVerde_SocialMedia-13.webp" alt="">
+        <div class="name">White <br> Ghost</div>
+    </div>
+    <div class="text">Inspired by the hearth of Latin American fincas. <br>
+        Built on the principle that food tastes better when <br>
+        For the vibrant community of Fort Greene.</div>
+    <div class="grid">
+        <div class="blocks menus">
+            <div class="menu"><a href="menu.html">Menus</a></div></div>
+        <div class="blocks menu_text">Enjoy our current offering of delicious dishes, made with local ingredients sourced from our friends and neighbors. <br>
+        <a href="menu.html"><button>View Our Menu</button></a></div>
+    </div>
+    <div class="order1">
+        <!-- <img src="order.webp" alt=""> -->
+        <a href="order.html"><button class="order">Order now</button></a>
+    </div>
+</body>
+</html>

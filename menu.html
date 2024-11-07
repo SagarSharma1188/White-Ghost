@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu</title>
+    <style>
+        *{
+        margin: 0px;
+        padding: 0px;
+    }
+    body{
+        background-color: antiquewhite;
+    }
+    .nav{
+        background-color: antiquewhite;
+        height: 9vh;
+    }
+    #name{
+        color: rgb(118, 169, 118);
+        font-weight: bolder;
+        font-size: 35px;
+    }
+    .list{
+        display: flex;
+        justify-content: space-around;
+        list-style: none;
+        text-align: center;
+        padding: 20px 300px;
+    }
+    ul a{
+        text-decoration: none;
+        color: green;
+        text-align: center;
+        font-size: larger;
+        font-weight: bolder;
+    }
+    .container img{
+        filter: brightness(75%);
+        background-size: cover;
+        z-index: 1;
+        height: 500px;
+            width: 99vw;
+            object-fit: cover;
+    }
+    .name{
+        color: white;
+        font-size: 100px;
+        position: absolute;
+        top: 30%;
+        left: 40%;
+        font-family: sans-serif;
+        font-weight: 700;
+    }
+    .container{
+        position: relative;
+    }
+    a:hover{
+        color: rgb(224, 60, 60);
+    }
+    img{
+        height: 500px;
+        width: 100vw;
+        object-fit: cover;
+    }
+    .stuff{
+        display: grid;
+        grid-template-columns: 500px 500px;
+        grid-template-rows: auto auto auto auto auto auto auto;
+        margin-left: 250px;
+        margin-top: 50px;
+        gap: 50px;
+        margin-bottom: 60px;
+    }
+    .main{
+        font-size: xx-large;
+        color: green;
+        font-weight: 500;
+    }
+    .sub{
+        font-size: large;
+    }
+    </style>
+</head>
+<body>
+    <div class="nav">
+        <ul class="list">
+            <li id="name"><a href="index.html" style="color: rgb(67, 170, 67);">White Ghost</a></li>
+            <li><a href="menu.html">Menus</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="cart.html">Cart</a></li>
+        </ul>
+    </div>
+    <div class="container">
+        <img src="https://static.vecteezy.com/system/resources/previews/025/339/407/non_2x/stock-of-bibimbap-sometimes-romanized-as-bi-bim-bap-foodgraphy-generative-ai-free-photo.jpg" alt="">
+        <div class="name">Menu</div>
+    </div>
+    <div class="stuff">
+        <div class="main">pao de queijo | Rs.500 <br> <div class="sub">Chipotle crema</div> </div>
+        <div class="main">boquerones & salsa macha | Rs.1200 <br> <div class="sub">White Spanish anchovies & salsa macha, served with tortillas</div></div>
+        <div class="main">trout ceviche | Rs.900 <br> <div class="sub">Leche de tigre, crispy quinoa, cilantro (GF, DF)</div></div>
+        <div class="main">aguachile negro | Rs.800 <br> <div class="sub">Shrimp, habanero & tortilla tatemada, aji amarillo, lime & orange citrus, avocado</div> </div>
+        <div class="main">crispy pork belly in salsa verde | Rs.700 <br> <div class="sub">Poblano & mint salsa, pickled onions</div></div>
+        <div class="main">sausage & veggie parrillada | Rs.900 <br> <div class="sub">Selection of sausages, grilled veggies, arepas, queso fundido</div></div>
+        <div class="main">shrimp tacos | Rs.1000 <br> <div class="sub">Refried beans, cheese, avocado, chipotle cream</div></div>
+        <div class="main">veggie tacos | Rs.1200 <br> <div class="sub">Chile tahini, grilled kale, sweet potato, salsa macha, avocado</div></div>
+        <div class="main">wild mushroom tacos | Rs.1200 <br> <div class="sub">Habanero ash, oaxaca cheese</div></div>
+        <div class="main">tuna tostadas  | Rs.1500 <br> <div class="sub">Habanero ash mayo, sesame oil, scallions, watermelon, mint</div></div>
+        <div class="main">pao de queijo burger| Rs.1400 <br> <div class="sub">Grass-fed burger mixed with caramelized onions topped with cilantro pesto served with shoestring sweet potato fries (GF)</div></div>
+        <div class="main">baked baby eggplant & mole | Rs.1100 <br> <div class="sub">Guajillo mole, cilantro, feta cheese</div></div>
+        <div class="main">frijol tabbouleh | Rs.900 <br> <div class="sub">Mantequilla beans, quinoa,tomato, parsley, onion, mint, cucumber & dill yogurt</div></div>
+    </div>
+</body>
+</html>
